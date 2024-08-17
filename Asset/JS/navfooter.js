@@ -1,7 +1,7 @@
 submenuData=[
     {
         id:968965932,
-        homelink:"index.html",
+        homelink:"../index.html",
         webdevlink:"wevDeveleopment.html",
         appDevlink:"appDevelopment.html",
 

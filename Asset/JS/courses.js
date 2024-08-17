@@ -6,7 +6,7 @@ const coursesData = [
         title: "Alpha 4.0 : Complete Placement Preparation!",
         post_date: "15 Aug 2024",
         category: "Programming",
-        link: "https://open.spotify.com/?nd=1"
+        link: "Courses/Course1.html"
     },
     {
         id: 23,
@@ -14,7 +14,7 @@ const coursesData = [
         title: "Delta 5.0 : Complete Web Development!",
         post_date: "15 Aug 2024",
         category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
+        link: "Courses/Course1.html"
     },
     {
         id: 22,
@@ -198,7 +198,7 @@ const coursesData = [
         title: "Delta 5.0 : Complete Web Development!",
         post_date: "15 Aug 2024",
         category: "Web Development",
-        link: "../Courses/Course1.html"
+        link: "Courses\Course1.html"
     },
     {
         id: 1,
@@ -233,7 +233,7 @@ function displayCoursesData(course) {
                   <p class="bx bx-clander">${cat_item.post_date}</p>
                 </div>
                 <div class="course-heading">
-                  <a href="#"><h3>${cat_item.title}</h3></a>
+                  <a href="${cat_item.link}"><h3>${cat_item.title}</h3></a>
                 </div>
               </div>
             </article> 
