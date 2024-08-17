@@ -198,7 +198,7 @@ const coursesData = [
         title: "Delta 5.0 : Complete Web Development!",
         post_date: "15 Aug 2024",
         category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
+        link: "../Courses/Course1.html"
     },
     {
         id: 1,
