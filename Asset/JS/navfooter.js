@@ -1,7 +1,7 @@
 submenuData=[
     {
         id:968965932,
-        homelink:"../index.html",
+        homelink:"index.html",
         webdevlink:"wevDeveleopment.html",
         appDevlink:"appDevelopment.html",
 
@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 window.addEventListener("DOMContentLoaded",() =>{
-    displaylogoData(logos);
+    displaylogoData(submenuData);
 });
 function displaylogoData(navs){
     let displaydata = navs.map(function(cat_item) {
@@ -111,7 +111,6 @@ function displayFooterData(footer) {
                 <!-- <li><a href="courses.html"><i class="fa fa-arrow-right"></i>Our Courses</a></li> -->
                 <li><a href="bolg.html"><i class="fa fa-arrow-right"></i>Categoris</a></li>
                 <li><a href="contact.html"><i class="fa fa-arrow-right"></i>Contact Us</a></li>
-                <li><a href="about.html"><i class="fa fa-arrow-right"></i>About us</a></li>
             </ul>
         </div>
         <div class="footer-5">
@@ -128,9 +127,8 @@ function displayFooterData(footer) {
         <div class="footer-3">
             <h4>Improtant Link</h4>
             <ul class="privacy">
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Term And Condition</a></li>
-                <li><a href="#">DMCA</a></li>
+                <li><a href="pripol.html">Privacy Policy</a></li>
+                <li><a href="DMCA.html">DMCA</a></li>
             </ul>
         </div>
 

@@ -6,7 +6,7 @@ const coursesData = [
         title: "Alpha 4.0 : Complete Placement Preparation!",
         post_date: "15 Aug 2024",
         category: "Programming",
-        link: "Courses/Course1.html"
+        link: "Courses/Course2.html"
     },
     {
         id: 23,

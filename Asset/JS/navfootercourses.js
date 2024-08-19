@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 window.addEventListener("DOMContentLoaded",() =>{
-    displaylogoData(logos);
+    displaylogoData(submenuData);
 });
 function displaylogoData(navs){
     let displaydata = navs.map(function(cat_item) {
