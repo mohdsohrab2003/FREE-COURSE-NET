@@ -1,213 +1,86 @@
 const coursesData = [
+    {
+        id: 10,
+        img: "Asset/IMG/COURSES IMG/Course10.jpg",
+        title: "[CodingBlocks] Competitive Programming",
+        post_date: "21 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course10.html"
+    },
+    {
+        id: 9,
+        img: "Asset/IMG/COURSES IMG/Course9.jpg",
+        title: "C++ Standard Template Library",
+        post_date: "21 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course9.html"
+    },
+    {
+        id: 8,
+        img: "Asset/IMG/COURSES IMG/Course8.jpg",
+        title: "Coding Blocks: Data Structures in Real Life Projects",
+        post_date: "21 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course8.html"
+    },
+    {
+        id: 7,
+        img: "Asset/IMG/COURSES IMG/Course7.jpg",
+        title: "[Coding Blocks] Master Interview Questions for FAANG & Product Companies",
+        post_date: "21 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course7.html"
+    },
+    {
+        id: 6,
+        img: "Asset/IMG/COURSES IMG/Course6.jpg",
+        title: "[Coding Blocks] Web Development with Python-Django",
+        post_date: "21 Aug 2024",
+        category: "Web Development",
+        link: "Courses/Course6.html"
+    },
+    {
+        id: 5,
+        img: "Asset/IMG/COURSES IMG/Course5.jpg",
+        title: "Android App Development Master Course",
+        post_date: "21 Aug 2024",
+        category: "App Development",
+        link: "Courses/Course5.html"
+    },
+    {
+        id: 4,
+        img: "Asset/IMG/COURSES IMG/Course4.jpg",
+        title: "Algo.Java | Data Structures and Algorithms: Mastering the Core of Programming",
+        post_date: "21 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course4.html"
+    },
+    {
+        id: 3,
+        img: "Asset/IMG/COURSES IMG/Course1.jpg",
+        title: "Over 8,999 Printable Pages! Fun Kids' Activities, Commercial Use",
+        post_date: "20 Aug 2024",
+        category: "Graphic",
+        link: "Courses/Course3.html"
+    },
 
     {
-        id: 26,
+        id: 2,
         img: "Asset/IMG/COURSES IMG/Course3.jpg",
         title: "Alpha 4.0 : Complete Placement Preparation!",
-        post_date: "15 Aug 2024",
+        post_date: "19 Aug 2024",
         category: "Programming",
         link: "Courses/Course2.html"
     },
     {
-        id: 23,
+        id: 1,
         img: "Asset/IMG/COURSES IMG/Course2.jpg",
         title: "Delta 5.0 : Complete Web Development!",
-        post_date: "15 Aug 2024",
+        post_date: "16 Aug 2024",
         category: "Web Development",
         link: "Courses/Course1.html"
     },
-    {
-        id: 22,
-        img: "Asset/IMG/COURSES IMG/Course1.jpg",
-        title: "The Ultimate React Course 2023: React, Redux & More",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 21,
-        img: "Asset/IMG/COURSES IMG/Course3.jpg",
-        title: "Alpha 4.0 : Complete Placement Preparation!",
-        post_date: "15 Aug 2024",
-        category: "Programming",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 20,
-        img: "Asset/IMG/COURSES IMG/Course2.jpg",
-        title: "Delta 5.0 : Complete Web Development!",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 19,
-        img: "Asset/IMG/COURSES IMG/Course1.jpg",
-        title: "The Ultimate React Course 2023: React, Redux & More",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 18,
-        img: "Asset/IMG/COURSES IMG/Course3.jpg",
-        title: "Alpha 4.0 : Complete Placement Preparation!",
-        post_date: "15 Aug 2024",
-        category: "Programming",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 17,
-        img: "Asset/IMG/COURSES IMG/Course2.jpg",
-        title: "Delta 5.0 : Complete Web Development!",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 16,
-        img: "Asset/IMG/COURSES IMG/Course1.jpg",
-        title: "The Ultimate React Course 2023: React, Redux & More",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 15,
-        img: "Asset/IMG/COURSES IMG/Course3.jpg",
-        title: "Alpha 4.0 : Complete Placement Preparation!",
-        post_date: "15 Aug 2024",
-        category: "Programming",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 14,
-        img: "Asset/IMG/COURSES IMG/Course2.jpg",
-        title: "Delta 5.0 : Complete Web Development!",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 13,
-        img: "Asset/IMG/COURSES IMG/Course1.jpg",
-        title: "The Ultimate React Course 2023: React, Redux & More",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 12,
-        img: "Asset/IMG/COURSES IMG/Course3.jpg",
-        title: "Alpha 4.0 : Complete Placement Preparation!",
-        post_date: "15 Aug 2024",
-        category: "Programming",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 11,
-        img: "Asset/IMG/COURSES IMG/Course2.jpg",
-        title: "Delta 5.0 : Complete Web Development!",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 10,
-        img: "Asset/IMG/COURSES IMG/Course1.jpg",
-        title: "The Ultimate React Course 2023: React, Redux & More",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 33,
-        img: "Asset/IMG/COURSES IMG/Course1.jpg",
-        title: "The Ultimate React Course 2023: React, Redux & More",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 9,
-        img: "Asset/IMG/COURSES IMG/Course3.jpg",
-        title: "Alpha 4.0 : Complete Placement Preparation!",
-        post_date: "15 Aug 2024",
-        category: "Programming",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 8,
-        img: "Asset/IMG/COURSES IMG/Course2.jpg",
-        title: "Delta 5.0 : Complete Web Development!",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 32,
-        img: "Asset/IMG/COURSES IMG/Course1.jpg",
-        title: "The Ultimate React Course 2023: React, Redux & More",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 7,
-        img: "Asset/IMG/COURSES IMG/Course1.jpg",
-        title: "The Ultimate React Course 2023: React, Redux & More",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 6,
-        img: "Asset/IMG/COURSES IMG/Course3.jpg",
-        title: "Alpha 4.0 : Complete Placement Preparation!",
-        post_date: "15 Aug 2024",
-        category: "Programming",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 4,
-        img: "Asset/IMG/COURSES IMG/Course1.jpg",
-        title: "The Ultimate React Course 2023: React, Redux & More",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 5,
-        img: "Asset/IMG/COURSES IMG/Course2.jpg",
-        title: "Delta 5.0 : Complete Web Development!",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 3,
-        img: "Asset/IMG/COURSES IMG/Course3.jpg",
-        title: "Alpha 4.0 : Complete Placement Preparation!",
-        post_date: "15 Aug 2024",
-        category: "Programming",
-        link: "https://open.spotify.com/?nd=1"
-    },
-    {
-        id: 2,
-        img: "Asset/IMG/COURSES IMG/Course2.jpg",
-        title: "Delta 5.0 : Complete Web Development!",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "Courses\Course1.html"
-    },
-    {
-        id: 1,
-        img: "Asset/IMG/COURSES IMG/Course1.jpg",
-        title: "The Ultimate React Course 2023: React, Redux & More",
-        post_date: "15 Aug 2024",
-        category: "Web Development",
-        link: "https://open.spotify.com/?nd=1"
-    },
+    
 ];
 
 const course_container = document.querySelector('.courses');
@@ -287,7 +160,7 @@ function setupPagination(courses) {
 
     $(function() {
         var numberOfItems = courses.length;
-        var limitPerPage = 6; // How many card items visible per page 
+        var limitPerPage = 15; // How many card items visible per page 
         var totalPages = Math.ceil(numberOfItems / limitPerPage);
         var paginationSize = 5;  // How many elements to show in the pagination
         var currentPage;

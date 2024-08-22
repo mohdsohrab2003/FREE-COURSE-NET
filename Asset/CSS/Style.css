@@ -342,7 +342,7 @@ nav .navbar .links li:hover .js-sub-menu{
 #WHATSAPP{
     background:#00a400;
 }
-#Udemy{
+#support{
     background: var(--primary-color);
 }
 #DOWNLOAD{
@@ -434,9 +434,9 @@ nav .navbar .links li:hover .js-sub-menu{
 .previous-page,.next-page{
   background: var(--white-color);
   width: 80px;
-  border-radius: 45px;
+  border-radius: 0;
   cursor: pointer;
-  color: #fff;
+  color: var(--black-color);
   transition: .3s ease;
 }
 
@@ -458,7 +458,7 @@ nav .navbar .links li:hover .js-sub-menu{
   color: var(--black-color);
 }
 .disable{
-  background: #ccc;
+  background: #f2efef;
 }
 
 

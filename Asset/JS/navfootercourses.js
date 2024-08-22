@@ -64,7 +64,7 @@ reflinkData=[
         return `
             <li id="Telegram" ><a href="${cat_item.telegramLink}"><i class="fa-brands fa-telegram"></i>JOIN TELEGRAM</a></li>
             <li id="WHATSAPP"><a href="${cat_item.whatsapplink}"><i class="fa-brands fa-whatsapp"></i>JOIN WHATSAPP</a></li>
-            <li id="Udemy"><a href="${cat_item.udemylink}"><i class="fa-brands fa-udemy"></i>Free Udemy Coupon</a></li>
+            <li id="support"><a href="${cat_item.supportLink}"><i class="fa-solid fa-circle-dollar-to-slot"></i>Support Work</a></li>
             <li id="DOWNLOAD"><a href="${cat_item.howtodown}"><i class="fa fa-download"></i>HOW TO DOWNLOAD</a></li>
         `;
     });
