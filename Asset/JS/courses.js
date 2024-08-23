@@ -1,5 +1,46 @@
 const coursesData = [
     {
+        id: 30,
+        img: "Asset/IMG/COURSES IMG/Course30.jpg",
+        title: "Matt Loberstein - Zero To Brand",
+        post_date: "23 Aug 2024",
+        category: "E-commerce ",
+        link: "Courses/Course30.html"
+    },
+    {
+        id: 29,
+        img: "Asset/IMG/COURSES IMG/Course29.jpg",
+        title: "Kevin David - Amazon FBA Ninja Full Course",
+        post_date: "23 Aug 2024",
+        category: "E-commerce ",
+        link: "Courses/Course29.html"
+    },
+
+    {
+        id: 28,
+        img: "Asset/IMG/COURSES IMG/Course28.jpg",
+        title: "Joshua Crisp - JP Amazon A-Z",
+        post_date: "23 Aug 2024",
+        category: "E-commerce ",
+        link: "Courses/Course28.html"
+    },
+    {
+        id: 27,
+        img: "Asset/IMG/COURSES IMG/Course27.png",
+        title: "Derrick Struggle - Amazon FBA Heroes",
+        post_date: "23 Aug 2024",
+        category: "E-commerce",
+        link: "Courses/Course27.html"
+    },
+    {
+        id: 26,
+        img: "Asset/IMG/COURSES IMG/Course26.png",
+        title: "Benjamin Joseph - Amazon FBA Secrets 3.0",
+        post_date: "23 Aug 2024",
+        category: "E-commerce",
+        link: "Courses/Course26.html"
+    },
+    {
         id: 25,
         img: "Asset/IMG/COURSES IMG/Course25.webp",
         title: "Beau Crabill - Online Retail Mastery (Amazon FBA University)",
