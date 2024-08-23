@@ -1,5 +1,46 @@
 const coursesData = [
     {
+        id: 20,
+        img: "Asset/IMG/COURSES IMG/Course20.jpg",
+        title: "[Coding Block] Algo++ Data Structures & Algorithms",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course20.html"
+    },
+
+    {
+        id: 19,
+        img: "Asset/IMG/COURSES IMG/Course19.jpg",
+        title: "[CodingBlocks] Python for Developers Master Course",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course19.html"
+    },
+    {
+        id: 18,
+        img: "Asset/IMG/COURSES IMG/Course18.jpg",
+        title: "[CodingBlocks] Kotlin for Beginners",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course18.html"
+    },
+    {
+        id: 17,
+        img: "Asset/IMG/COURSES IMG/Course17.jpg",
+        title: "Java Master Course: Crux",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course17.html"
+    },
+    {
+        id: 16,
+        img: "Asset/IMG/COURSES IMG/Course16.jpg",
+        title: "CodingBlocks: Java Fundamentals",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course16.html"
+    },
+    {
         id: 15,
         img: "Asset/IMG/COURSES IMG/Course15",
         title: "[CodingBlocks] Interview Preparation [C++]",
