@@ -1,5 +1,47 @@
 const coursesData = [
     {
+        id: 15,
+        img: "Asset/IMG/COURSES IMG/Course15",
+        title: "[CodingBlocks] Interview Preparation [C++]",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course15.html"
+    },
+    {
+        id: 14,
+        img: "Asset/IMG/COURSES IMG/Course14",
+        title: "CodingBlocks: Interview Preparation Java",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course14.html"
+    },
+
+    {
+        id: 13,
+        img: "Asset/IMG/COURSES IMG/Course13.jpg",
+        title: "[CodingBlocks] Graph Algorithm",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course13.html"
+    },
+    
+    {
+        id: 12,
+        img: "Asset/IMG/COURSES IMG/Course12.jpg",
+        title: "[CodingBlocks] Full Stack Web Development with NodeJS Master Course",
+        post_date: "23 Aug 2024",
+        category: "Web Development",
+        link: "Courses/Course12.html"
+    },
+    {
+        id: 11,
+        img: "Asset/IMG/COURSES IMG/Course11.jpg",
+        title: "CodingBlocks: Dynamic Programming",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course11.html"
+    },
+    {
         id: 10,
         img: "Asset/IMG/COURSES IMG/Course10.jpg",
         title: "[CodingBlocks] Competitive Programming",
