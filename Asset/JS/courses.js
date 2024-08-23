@@ -1,5 +1,47 @@
 const coursesData = [
     {
+        id: 25,
+        img: "Asset/IMG/COURSES IMG/Course25.webp",
+        title: "Beau Crabill - Online Retail Mastery (Amazon FBA University)",
+        post_date: "23 Aug 2024",
+        category: "E-commerce",
+        link: "Courses/Course25.html"
+    },
+    {
+        id: 24,
+        img: "Asset/IMG/COURSES IMG/Course24.webp",
+        title: "Amazing Selling Machine 9 - Matt Clark, Jason Katzenback",
+        post_date: "23 Aug 2024",
+        category: "E-commerce",
+        link: "Courses/Course24.html"
+    },
+    {
+        id: 23,
+        img: "Asset/IMG/COURSES IMG/Course23.webp",
+        title: "Anthony Alfonso - Entrepreneur Affiliates Mastery Course",
+        post_date: "23 Aug 2024",
+        category: "Affiliate Marketing",
+        link: "Courses/Course23.html"
+    },
+
+    {
+        id: 22,
+        img: "Asset/IMG/COURSES IMG/Course22.jpg",
+        title: "[CodingBlocks] Python Fundamentals",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course22.html"
+    },
+
+    {
+        id: 21,
+        img: "Asset/IMG/COURSES IMG/Course21.jpg",
+        title: "[Coding Block] C++ Fundamentals",
+        post_date: "23 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course21.html"
+    },
+    {
         id: 20,
         img: "Asset/IMG/COURSES IMG/Course20.jpg",
         title: "[Coding Block] Algo++ Data Structures & Algorithms",
