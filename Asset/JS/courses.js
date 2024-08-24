@@ -1,5 +1,53 @@
 const coursesData = [
     {
+        id: 1,
+        img: "Asset/IMG/COURSES IMG/Course2.jpg",
+        title: "Delta 5.0 : Complete Web Development!",
+        post_date: "16 Aug 2024",
+        category: "Web Development",
+        link: "Courses/Course1.html"
+    },
+    {
+        id: 35,
+        img: "Asset/IMG/COURSES IMG/Course35.webp",
+        title: "Java with DSA and System Design 2.0 Course",
+        post_date: "24 Aug 2024",
+        category: "Programming",
+        link: "Courses/Course35.html"
+    },
+    {
+        id: 34,
+        img: "Asset/IMG/COURSES IMG/Course34.jfif",
+        title: "Master ChatGPT by Dhruv Rathee",
+        post_date: "24 Aug 2024",
+        category: "AI & Technology ",
+        link: "Courses/Course34.html"
+    },
+    {
+        id: 33,
+        img: "Asset/IMG/COURSES IMG/Course33.jpg",
+        title: "YouTube Automation Mastery by Saad Rashid",
+        post_date: "24 Aug 2024",
+        category: "Content Creation ",
+        link: "Courses/Course33.html"
+    },
+    {
+        id: 32,
+        img: "Asset/IMG/COURSES IMG/Course32.jpg",
+        title: "Time Management by Dhruv Rathee",
+        post_date: "24 Aug 2024",
+        category: "Personal Development ",
+        link: "Courses/Course32.html"
+    },
+    {
+        id: 31,
+        img: "Asset/IMG/COURSES IMG/Course31.jpg",
+        title: "Dhruv Rathee YouTube Blueprint 2024",
+        post_date: "24 Aug 2024",
+        category: "Content Creators ",
+        link: "Courses/Course31.html"
+    },
+    {
         id: 30,
         img: "Asset/IMG/COURSES IMG/Course30.jpg",
         title: "Matt Loberstein - Zero To Brand",
